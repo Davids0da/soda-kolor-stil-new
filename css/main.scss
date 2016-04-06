@@ -1,0 +1,103 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+body {
+  background-image: url('../images/pozadina.jpg');
+}
+
+.logo-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+  font-size: 100px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: rgb(249,160,93);
+}
+
+.main-nav.nav > li > a {
+  color: rgb(249,160,93);
+  font-size: 200%;
+}
+
+.main-nav.nav > li.active > a {
+  background-color: rgb(184,233,135);
+}
+
+.verticalLane {
+  border-left: thick solid #ff0000;
+}
+
+.about, .offers {
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+
+}
+
+.about {
+  color: rgb(88,132,43);
+
+}
+
+.about > h2, .offers > h2 {
+   font-size: 300%;
+}
+
+.offers {
+  color: rgb(252,123,11);
+}
+
+.about > p, .offers > p {
+      font-size: 150%;
+}
+
+.footer {
+    color: black;
+    font-size: 150%;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+
+.footer1 {
+  font-size:130%;
+}
+
+.uradisam {
+  color: black;
+
+}
+
+a {
+  color: black;
+
+}
+
+h6 {
+  font-size: 110%;
+}
+
+.baner {
+  width:180px; height:130px;
+}
+
+.baner1 {
+  height:100px; width:950px;
+}
+
+.linija {
+  margin-bottom: 10px;
+}
+
+.futer {
+ margin-top: 20px;
+}
+
+.kontenjer {
+border-top: 1px solid;
+padding-top: 20px;
+}
