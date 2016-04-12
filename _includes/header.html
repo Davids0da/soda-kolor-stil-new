@@ -7,13 +7,13 @@
     </div>
     <!-- Linija sa dugmicima-->
     <ul class="nav nav-pills nav-justified main-nav linija">
-      <li>
+      <li {% if page.url == '/uradisam.html' %} class="active"{% endif %}>
         <a href="../uradisam.html">URADI SAM</a>
       </li>
-      <li>
+      <li {% if page.url == '/pronadjiradnika.html' %} class="active"{% endif %}>
         <a href="pronadjiradnika.html">PRONAĐJI RADNIKA</a>
       </li>
-      <li>
+      <li {% if page.url == '/informacije.html' %} class="active"{% endif %}>
         <a href="informacije.html">INFORMACIJE</a>
       </li>
     </ul>
